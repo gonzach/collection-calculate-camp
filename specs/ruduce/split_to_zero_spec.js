@@ -10,6 +10,7 @@ describe('split_to_zero', function () {
   it('', function() {
 
     var result = split_to_zero(0.8, 0.2);
+    console.log(result);
     expect(result).toEqual(collection_a);
   });
 

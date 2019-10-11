@@ -1,7 +1,8 @@
 'use strict';
 
 function collect_all_even(collection) {
-  //在这里写入代码
+  const even_num_res = num => num % 2 === 0;
+  return collection.filter(even_num_res);
 }
 
 module.exports = collect_all_even;

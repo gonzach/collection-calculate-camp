@@ -11,6 +11,7 @@ describe('get_intersection', function () {
   it('', function() {
 
     var result = get_intersection(collection_a, collection_b);
+    console.log(result);
     expect(result).toEqual(collection_c);
   });
 });
