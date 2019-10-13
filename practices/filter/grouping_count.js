@@ -2,11 +2,12 @@
 
 function grouping_count(collection) {
 
-  
-  //console.log(Object.entries(collection));
-  //console.log(Object.values(collection));
-  //console.log(Object.keys(collection));
-  console.log(collection.filter(listA => Object.values(listA) === 1));
+  const item_count = {};
+  collection.forEach((item)=>{
+    item_count[item] = item_count[item] + 1 || 1;
+ });
+ return item_count;
+
 }
 
 module.exports = grouping_count;
