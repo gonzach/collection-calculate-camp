@@ -1,7 +1,10 @@
 'use strict';
 
 function find_last_even(collection) {
-  //write code here
+  
+  return collection.filter(collectionObject => collectionObject % 2 == 0).pop();
+ 
+          
 }
 
 module.exports = find_last_even;
