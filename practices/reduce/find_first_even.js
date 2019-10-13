@@ -2,7 +2,8 @@
 
 function find_first_even(collection) {
   
-  return collection.reduce((prev, curr) => (prev + curr));
+  let res = collection.filter(collectionObject => collectionObject % 2 == 0);
+  return res[0];
   
 }
 
