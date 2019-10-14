@@ -2,10 +2,12 @@
 
 function spilt_to_zero(number, interval) {
   let splitResult = [];
-  for(let num = number; num <= 0; num++){
+  let num = 0;
+  for( num = number; num <= 0; ){
     console.log(num);
+    num = num - interval;
     }
-    return splitResult;
+    
 }
 
 module.exports = spilt_to_zero;

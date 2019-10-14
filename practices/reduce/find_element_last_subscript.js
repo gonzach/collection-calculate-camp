@@ -2,8 +2,8 @@
 
 function calculate_elements_sum(collection, element) {
   
-  const find = index => Object.values(collection)[index];
-  return collection.reduce(find, element);
+  console.log(collection.indexOf(element, 4));
+
 }
 
 module.exports = calculate_elements_sum;
