@@ -16,9 +16,9 @@ function get_integer_interval(number_a, number_b) {
         return arrayNumber;
   }
 
-//  if (number_a == number_b){
-//    return arrayNumber.push([5]);
-//  }
+  if (number_a == number_b){
+    return arrayNumber.push([5]);
+  }
 
 }
 module.exports = get_integer_interval;

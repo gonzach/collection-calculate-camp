@@ -24,4 +24,5 @@ describe('get_integer_interval', function () {
 //    var result = get_integer_interval(5, 5);
 //    expect(result).toEqual([5]);
 //  });
+
 });

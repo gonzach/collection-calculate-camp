@@ -29,15 +29,15 @@ function get_integer_interval_2(number_a, number_b) {
     return [arrayNumber[0]];
   }
 
-//  if (number_a === number_b){
-//    for(let startNum = number_a; count<number_b; startNum++){
-//        arrayNumber.push(intervalNumber);
-//        intervalNumber = startNum*number_a;
-//        count++;
-//    }
-//    arrayNumber = [];
-//    return [];
-//  }
+  if (number_a === number_b){
+    for(let startNum = number_a; count<number_b; startNum++){
+        arrayNumber.push(intervalNumber);
+        intervalNumber = startNum*number_a;
+        count++;
+    }
+    arrayNumber = [];
+    return [];
+  }
 }
 
 module.exports = get_integer_interval_2;
