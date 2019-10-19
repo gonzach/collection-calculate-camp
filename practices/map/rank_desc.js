@@ -1,8 +1,9 @@
 'use strict';
+
 var rank_desc = function(collection){
 
-  return collection.stream.reversed();
-  
+  return collection.sort();
+
 };
 
 module.exports = rank_desc;
