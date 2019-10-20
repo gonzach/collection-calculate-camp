@@ -19,10 +19,10 @@ describe('get_integer_interval', function () {
     expect(result).toEqual(collection_b);
   });
 
-//  it('', function() {
-//
-//    var result = get_integer_interval(5, 5);
-//    expect(result).toEqual([5]);
-//  });
+  it('', function() {
+
+    var result = get_integer_interval(5, 5);
+    expect(result).toEqual([5]);
+  });
 
 });
