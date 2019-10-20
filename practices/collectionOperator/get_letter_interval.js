@@ -6,10 +6,19 @@ function get_letter_interval(number_a, number_b) {
   let letter = "h";
   let letterPosition = alphabet.indexOf(letter)+1;
 
-  let array = [];
-  for(let i = number_a; i<= number_b ; i++){
-    console.log(alphabet.indexOf(i))
-  }
+  let result = [];
+
+    if (number_a > number_b ){
+      for(let i = number_a; i >= number_b ; i--){
+            result.push((i + 9).toString(36).toLowerCase());
+      }
+      return result;
+    } else {
+      for(let i = number_a; i<= number_b ; i++){
+        result.push((i + 9).toString(36).toLowerCase());
+      }
+      return result;
+    }
 }
 
 module.exports = get_letter_interval;
