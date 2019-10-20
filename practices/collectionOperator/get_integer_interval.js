@@ -17,9 +17,11 @@ function get_integer_interval(number_a, number_b) {
   }
 
   if (number_a == number_b){
-    return arrayNumber.push([5]);
+        arrayNumber= [number_a];
+        return(arrayNumber);
   }
 
 }
+
 module.exports = get_integer_interval;
 
