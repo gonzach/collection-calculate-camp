@@ -25,11 +25,11 @@ describe('get_integer_interval_2', function () {
     expect(result).toEqual([10]);
   });
 
-//  it('', function() {
-//
-//     var result = get_integer_interval_2(5, 5);
-//     expect(result).toEqual([]);
-//  });
+  it('', function() {
+
+     var result = get_integer_interval_2(5, 5);
+     expect(result).toEqual([]);
+  });
 
 });
 
